@@ -1,4 +1,4 @@
-package com.example.paymentservice.service;
+package com.example.paymentservice.client;
 
 public interface PayementGatwaySelector {
     PaymentGateway getPaymentGateway();

@@ -1,6 +1,6 @@
 package com.example.paymentservice.service;
 
-import com.example.paymentservice.dtos.SendEmailEventDto;
+import com.example.paymentservice.client.PayementGatwaySelector;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.KafkaTemplate;

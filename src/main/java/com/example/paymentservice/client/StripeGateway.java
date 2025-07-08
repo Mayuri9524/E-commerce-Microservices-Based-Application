@@ -1,4 +1,4 @@
-package com.example.paymentservice.service;
+package com.example.paymentservice.client;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Primary;
@@ -11,8 +11,6 @@ import com.stripe.model.PaymentLink;
 import com.stripe.model.Price;
 import com.stripe.param.PaymentLinkCreateParams;
 import com.stripe.param.PriceCreateParams;
-import org.springframework.context.annotation.Primary;
-import org.springframework.stereotype.Service;
 
 @Service
 @Primary
